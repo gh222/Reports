@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Target Name="Build">
+    <!-- Here we have a reference to the VS path to be used for the build and the relative path for the project (MD or Tabular).-->
+    <Exec Command='"C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\devenv.exe" "C:\Documents and Settings\MyUser\My Documents\Visual Studio 2008\Projects\Reports\Reports.sln" /deploy "Release"'>
+
+      <!-- https://msdn.microsoft.com/en-us/library/cc281300.aspx#CommandLine -->
+      <!-- devenv.exe "C:\Documents and Settings\MyUser\My Documents\Visual Studio 2008\Projects\Reports\Reports.sln" /build "Debug" -->
+      <!-- devenv.exe "C:\Documents and Settings\MyUser\My Documents\Visual Studio 2008\Projects\Reports\Reports.sln" /build "Debug" /out mybuildlog.txt -->
+    
+    </Exec>
+  </Target>
+  
+</Project>
+
+
