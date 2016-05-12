@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "Reports", "Reports\Reports.rptproj", "{9F1B84FD-2B08-4817-AD96-E546D2EA35EC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{813F9819-FF5F-4067-A2FE-D085CE560C7C}"
+	ProjectSection(SolutionItems) = preProject
+		SSASBuild.proj = SSASBuild.proj
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		DebugLocal|Default = DebugLocal|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9F1B84FD-2B08-4817-AD96-E546D2EA35EC}.Debug|Default.ActiveCfg = Debug
+		{9F1B84FD-2B08-4817-AD96-E546D2EA35EC}.Debug|Default.Build.0 = Debug
+		{9F1B84FD-2B08-4817-AD96-E546D2EA35EC}.Debug|Default.Deploy.0 = Debug
+		{9F1B84FD-2B08-4817-AD96-E546D2EA35EC}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{9F1B84FD-2B08-4817-AD96-E546D2EA35EC}.DebugLocal|Default.Build.0 = DebugLocal
+		{9F1B84FD-2B08-4817-AD96-E546D2EA35EC}.Release|Default.ActiveCfg = Release
+		{9F1B84FD-2B08-4817-AD96-E546D2EA35EC}.Release|Default.Build.0 = Release
+		{9F1B84FD-2B08-4817-AD96-E546D2EA35EC}.Release|Default.Deploy.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
