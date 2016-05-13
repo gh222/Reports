@@ -35,7 +35,7 @@
       <Platform>Win32</Platform>
       <Options>
         <OutputPath>bin\DebugLocal</OutputPath>
-        <TargetServerVersion>SSRS2016</TargetServerVersion>
+        <TargetServerVersion>SSRS2008R2</TargetServerVersion>
         <TargetFolder>Reports</TargetFolder>
         <TargetDataSourceFolder>Data Sources</TargetDataSourceFolder>
         <TargetDatasetFolder>Datasets</TargetDatasetFolder>
@@ -47,10 +47,13 @@
       <Platform>Win32</Platform>
       <Options>
         <OutputPath>bin\Release</OutputPath>
-        <TargetServerVersion>SSRS2016</TargetServerVersion>
-        <TargetFolder>Reports</TargetFolder>
+        <TargetServerVersion>SSRS2008R2</TargetServerVersion>
+        <TargetServerURL>http://nibs/ReportServer</TargetServerURL>
+        <TargetFolder>Coast</TargetFolder>
         <TargetDataSourceFolder>Data Sources</TargetDataSourceFolder>
+        <OverwriteDataSources>true</OverwriteDataSources>
         <TargetDatasetFolder>Datasets</TargetDatasetFolder>
+        <OverwriteDatasets>true</OverwriteDatasets>
         <TargetReportPartFolder>Report Parts</TargetReportPartFolder>
       </Options>
     </Configuration>
