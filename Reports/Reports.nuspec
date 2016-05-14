@@ -11,7 +11,9 @@
   </metadata>
   <files>
     <file src="*.rdl" target="Reports" />
+	<file src="*..\Reports\*.rdl" target="Reports" />
     <file src="..\sql\*.sql" target="Sql" />
+	
     <file src="..\sql\Scripts\*.sql" target="Sql\Scripts" />
     <file src="..\sql\Scripts\Dependencies\*.sql" target="Sql\Scripts\Dependencies" />
     <file src="*.ps1" target="" />
